@@ -8,17 +8,64 @@ The purpose of this analysis was to use machine learning to solve the challenge 
 ## Results
 
 ### RandomOverSampler
+<img src= "https://github.com/DAsInDavid1/Credit_Risk_Analysis/blob/main/Photos/RandomOverSampler.png" width=50% height=50%> 
+
+<ins>Balanced score</ins> = 66% - Our accuracy shows that we are not very accurate at prediticting if the customer is a high risk or a low risk. It is only 16% better then the expected 50% chance you may have at guessing if a customer is high risk or low risk (assuming they are a balanced class)
+
+
+<ins>precision</ins> = 99% - the precision score shows that we are incredibly accurate at predicting positive cases.
+
+<ins>recall</ins> = 59% - our recall score shows that we are only about 1/2 right in predicting if the true positive actually is a true positive instead of a false negative
 
 ### SMOTE
+<img src= "https://github.com/DAsInDavid1/Credit_Risk_Analysis/blob/main/Photos/SMOTE.png" width=50% height=50%> 
+
+<ins>Balanced score</ins> = 
+
+
+<ins>precision</ins> = 
+
+<ins>recall</ins> = 
 
 ### ClusterCentroids
+<img src= "https://github.com/DAsInDavid1/Credit_Risk_Analysis/blob/main/Photos/ClusterCentroids.png" width=50% height=50%> 
+
+<ins>Balanced score</ins> = 
+
+
+<ins>precision</ins> = 
+
+<ins>recall</ins> = 
 
 ### SMOTEENN
+<img src= "https://github.com/DAsInDavid1/Credit_Risk_Analysis/blob/main/Photos/SMOTEENN.png" width=50% height=50%> 
+
+<ins>Balanced score</ins> = 
+
+
+<ins>precision</ins> = 
+
+<ins>recall</ins> = 
 
 ### BalancedRandomForestClassifier
+<img src= "https://github.com/DAsInDavid1/Credit_Risk_Analysis/blob/main/Photos/BalancedRandomForestClassifier.png" width=50% height=50%> 
+
+<ins>Balanced score</ins> = 
+
+
+<ins>precision</ins> = 
+
+<ins>recall</ins> = 
 
 ### EasyEnsembleClassifier
+<img src= "https://github.com/DAsInDavid1/Credit_Risk_Analysis/blob/main/Photos/EasyEnsembleClassifier.png" width=50% height=50%> 
 
+<ins>Balanced score</ins> = 
+
+
+<ins>precision</ins> = 
+
+<ins>recall</ins> = 
 
 # Resources
 https://stackoverflow.com/questions/40565444/balanced-random-forest-in-scikit-learn-python - Used for learning syntax and implementation of Balanced Random Forest Classifer
