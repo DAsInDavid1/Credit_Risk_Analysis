@@ -68,6 +68,9 @@ The purpose of this analysis was to use machine learning to solve the challenge 
 <ins>recall</ins> = 94% - our recall rate is much better at predicting if the true positive actually is a true positive instead of a false negative.
 
 ## Summary
+Out of all the machine learning methods the EasyEnsembleClassifier method is by far the best. However, it is not good enough for a large firm. If you are having over 10,000 people apply for credit daily, and the model not getting the correct result 6% of the time (600 peopl) it would cause alot of work to fix that. for the ones deemded high risk but are actually not, you would need a help line to dispute their rejected credit. For the those deemed low risk, but actually high risk you would need a payables department with enough man power to try and recoup those funds from the high risk people.
+
+If you are a smaller company only seeing 100 people apply for credit a day this model would work for you. Most firms would easily have enough man power to deal with the 6-7% of incorrect assesments of the machine learning model. 
 
 # Resources
 https://stackoverflow.com/questions/40565444/balanced-random-forest-in-scikit-learn-python - Used for learning syntax and implementation of Balanced Random Forest Classifer
